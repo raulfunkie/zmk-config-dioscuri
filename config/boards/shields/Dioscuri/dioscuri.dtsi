@@ -1,13 +1,12 @@
-#include <physical_layouts.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
 	chosen {
-		zmk,kscan = &kscan0;
-		zmk,matrix_transform = &default_transform;
+		zmk,kscan = &kscan;
+		zmk,matrix_transform = &transform;
 	};
 
-	kscan0: kscan {
+	kscan: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
 		wakeup-source;
 		diode-direction = "col2row";
@@ -21,10 +20,10 @@
 				;
 	};
 
-	default_transform: keymap_transform_0 {
+	transform: matrix_transform {
 		compatible = "zmk,matrix-transform";
-		columns = <14>;
 		rows = <5>;
+		columns = <14>;
 
 		map = <
 				RC(0, 0) RC(0, 1) RC(0, 2) RC(0, 3) RC(0, 4) RC(0, 5) RC(0, 6)					 RC(0, 7) RC(0, 8) RC(0, 9) RC(0, 10) RC(0, 11) RC(0, 12) RC(0, 13)
