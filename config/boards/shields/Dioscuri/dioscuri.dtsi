@@ -6,7 +6,7 @@
 	};
 	
 	&physical_layout0 {
-		transform = <&matrix_transform0>;
+		transform = <&matrix_transform>;
 	};
 
 	kscan: kscan {
