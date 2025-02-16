@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-	dioscuri_layout: dioscuri_layout {
+	physical_layout: dioscuri_layout {
 		compatible = "zmk,physical-layout";
 		display-name = "Dioscuri";
 		transform = <&default_transform>;

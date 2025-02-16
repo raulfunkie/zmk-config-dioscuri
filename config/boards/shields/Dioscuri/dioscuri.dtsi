@@ -5,7 +5,7 @@
 		zmk,kscan = &kscan;
 	};
 	
-	&physical_layout0 {
+	physical_layout {
 		transform = <&matrix_transform>;
 	};
 
