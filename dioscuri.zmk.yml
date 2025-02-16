@@ -1,0 +1,13 @@
+file_format: "1"
+id: dioscuri
+name: Dioscuri
+type: shield
+url: https://github.com/raulfunkie/zmk-config-dioscuri/
+requires:
+  - pro_micro
+features:
+  - keys
+  - studio
+  siblings:
+  - dioscuri_left
+  - dioscuri_right
