@@ -8,6 +8,6 @@ requires:
 features:
   - keys
   - studio
-  siblings:
+siblings:
   - dioscuri_left
   - dioscuri_right
