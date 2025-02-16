@@ -1,7 +1,7 @@
 #include "dioscuri.dtsi"
 
 &transform {
-	col-offset = <8>;
+	col-offset = <6>;
 };
 
 &kscan {
