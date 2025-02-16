@@ -7,7 +7,7 @@
 	
 	&physical_layout0 {
 		transform = <&matrix_transform0>;
-	};q
+	};
 
 	kscan: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
