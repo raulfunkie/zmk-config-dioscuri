@@ -31,7 +31,7 @@
 				RC(4,0) RC(4,1) 		    RC(4,3) RC(4,4)													  RC(4,8) RC(4,9) 		 		 RC(4,11) RC(4,12) RC(4,13)
 		>;
 	};
-
+	
 	layout: layout {
 		compatible = "zmk,physical-layout";
 		display-name = "Dioscuri";

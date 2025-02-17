@@ -27,7 +27,6 @@
 		};
 	};
 	
-	
 	behaviors {
 		bm: bottom_row_mods {
 			compatible = "zmk,behavior-hold-tap";
@@ -64,7 +63,6 @@
 			bindings = <&sm ESC LALT>, <&spotlight>, <&kp LCTRL>, <&mac_emoji>;
 		};
 	};
-	
 	
 	keymap {
 		compatible = "zmk,keymap";
