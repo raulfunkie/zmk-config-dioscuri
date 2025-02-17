@@ -47,15 +47,6 @@
 			retro-tap;
 		};
 	
-		sm: space_mod {
-			compatible = "zmk,behavior-hold-tap";
-			#binding-cells = <2>;
-			flavor = "balanced";
-			tapping-term-ms = <200>;
-			quick-tap-ms = <200>;
-			bindings = <&kp>, <&kp>;
-		};
-	
 		td_multi_mac: tap_dance_multi_mac {
 			compatible = "zmk,behavior-tap-dance";
 			#binding-cells = <0>;
