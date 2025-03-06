@@ -3,6 +3,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
+// Urob
+#include "zmk-helpers/helper.h"
+
 #define MAC 0
 #define ALT 1
 
